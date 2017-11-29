@@ -1,0 +1,4 @@
+<view class="time">
+  <view class="time_tem">{{second}} 秒 </view>
+  <view class="time_te"> 跳过</view>
+</view>
