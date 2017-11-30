@@ -1,5 +1,7 @@
 {
   "pages":[
+    "pages/storage_pre/storage_pre",
+    "pages/storage/storage",
     "pages/index/index",
     "pages/logs/logs"
   ],
