@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/friends/friends",
+    "pages/message/message",
+    "pages/check/check",
+    "pages/MyLove/MyLove",
+    "pages/MyMovie/MyMovie",
+    "pages/MyFood/MyFood",
+    "pages/MyFere/MyFere",
+    "pages/MyBoyFriend/MyBoyFriend",
+    "pages/check/oneQuestion",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "朋友猜猜",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"#999999",
+    "seclectedColor":"#F788AB",
+    "backgroundColor":"#ffffff",
+    "borderStyle":"#e0e0e0",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./image/main.png",
+        "selectedIconPath":"./image/main_fill.png",
+        "text": "我的主页"
+      },
+      {
+        "pagePath": "pages/friends/friends",
+        "iconPath": "./image/friends.png",
+        "selectedIconPath":"./image/friend_fill.png",
+        "text": "好友推荐"
+      },
+      {
+        "pagePath":"pages/message/message",
+        "iconPath":"./image/message.png",
+        "selectedIconPath":"./image/message_fill.png",
+        "text":"消息"
+      }
+    ]
+  }
+}

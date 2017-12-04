@@ -1,0 +1,57 @@
+<view class="page">
+    <view class="page_hd">
+            <span class="headText">朋友印象</span>
+            <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover">
+            </image>
+    </view>
+    <view class="page_bd">
+        <view class="firstBlock">
+            <view class="box">
+                    <button bindtap="toFirstpage" class="bton" class-hover="button-hover">
+                        去设置
+                    </button>
+                    <span class="title">我的日常属性</span>
+                    <span class="title_under">尚未设置</span>
+            </view>
+            <view class="box">
+                    <button bindtap="toSecondpage" class="bton" class-hover="button-hover">
+                        去设置
+                    </button>
+                    <span class="title">我的爱情观</span>
+                    <span class="title_under">尚未设置</span>
+            </view>
+            <view class="box">
+                    <button bindtap="toThirdpage" class="bton" class-hover="button-hover">
+                        去设置
+                    </button>
+                    <span class="title">我的电影口味</span>
+                    <span class="title_under">尚未设置</span>
+            </view>
+            <view class="box">
+                    <button bindtap="toFourthpage" class="bton" class-hover="button-hover">
+                        去设置
+                    </button>
+                    <span class="title">我的美食口味</span>
+                    <span class="title_under">尚未设置</span>
+            </view>
+            <view class="box">
+                    <button bindtap="toFifthpage" class="bton" class-hover="button-hover">
+                        去设置
+                    </button>
+                    <span class="title">我的择偶观</span>
+                    <span class="title_under">尚未设置</span>
+            </view>
+            <view class="box__last">
+                    <button bindtap="toSixthpage" class="bton" hover-class="button-hover">
+                            去设置
+                    </button>
+                    <span class="title">我选男票的口味</span>
+                    <span class="title_under">尚未设置</span>
+            </view>
+        </view>
+    </view>
+    <view class="page_ft">
+        <span class="lastText">最近访客</span>
+        <span class="centerText">·_·还没有好友来过你哦</span>
+    </view>
+</view>
