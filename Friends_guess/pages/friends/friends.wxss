@@ -1,1 +1,8 @@
 /* pages/friends/friends.wxss */
+.Text{
+    font-size: 40rpx;
+    color: #e0e0e0;
+    line-height: 400rpx;
+    text-align: center;
+    margin-left: 300rpx;
+}

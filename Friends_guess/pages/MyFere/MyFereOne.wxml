@@ -1,13 +1,13 @@
 <view class="page">
     <view class="page_hd">
-        <span class="question">我喜欢什么样的男生？</span>
-        <span class="number">1/10</span>
+        <span class="question">我希望自己的身材？</span>
+        <span class="number">2/10</span>
         <span class="topic">题目</span>
     </view>
     <view class="page_bd">
-        <button class="firstBton" bindtap="firstBton">傻白甜</button>
-        <button class="secondBton" bindtap="secondBton">鬼灵精怪</button>
-        <button class="thirdBton" bindtap="thirdBton">阳光开朗</button>
+        <button class="firstBton" bindtap="firstBton">丰满</button>
+        <button class="secondBton" bindtap="secondBton">小巧玲珑</button>
+        <button class="thirdBton" bindtap="thirdBton">瘦高</button>
         <button class="fourthBton" bindtap="fourthBton">运动范儿</button>
     </view>
     <view class="page_ft">

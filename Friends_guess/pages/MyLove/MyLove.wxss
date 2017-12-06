@@ -1,1 +1,2 @@
 /* pages/MyLove/MyLove.wxss */
+@import"../check/check.wxss"

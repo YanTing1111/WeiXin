@@ -20,6 +20,31 @@ Page({
       url: '../check/check'
     })
   },
+  toSecondpage:function(){
+    wx.navigateTo({
+      url: '../MyLove/MyLove'
+    })
+  },
+  toThirdpage:function(){
+    wx.navigateTo({
+      url: '../MyMovie/MyMovie'
+    })
+  },
+  toFourthpage:function(){
+    wx.navigateTo({
+      url: '../MyFood/MyFood'
+    })
+  },
+  toFifthpage:function(){
+    wx.navigateTo({
+      url: '../MyFere/MyFere'
+    })
+  },
+  toSixthpage:function(){
+    wx.navigateTo({
+      url: '../MyBoyFriend/MyBoyFriend'
+    })
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

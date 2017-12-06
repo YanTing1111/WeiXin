@@ -1,14 +1,12 @@
 <view class="page">
 <view class="page_hd">
-    <span class="question">我喜欢猫,还是喜欢狗？</span>
-    <span class="number">1/10</span>
+    <span class="question">我经常迟到吗？</span>
     <span class="topic">题目</span>
+    <span class="number">3/10</span>
 </view>
 <view class="page_bd">
-    <button class="firstBton" bindtap="firstBton">猫</button>
-    <button class="secondBton" bindtap="secondBton">狗</button>
-    <button class="thirdBton" bindtap="thirdBton">都喜欢</button>
-    <button class="fourthBton" bindtap="fourthBton">都不喜欢</button>
+    <button class="firstBton" bindtap="firstBton">迟到大王</button>
+    <button class="secondBton" bindtap="secondBton">很准时</button>
 </view>
 <view class="page_ft">
         <button class="next" bindtap="nextBton" class-hover="button-hover">

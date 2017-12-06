@@ -1,2 +1,21 @@
-<!--pages/MyBoyFriend/MyBoyFriend.wxml-->
-<text>pages/MyBoyFriend/MyBoyFriend.wxml</text>
+<view class="page">
+    <view class="page_hd">
+        <span class="question">我喜欢的类型是？</span>
+        <span class="number">1/10</span>
+        <span class="topic">题目</span>
+    </view>
+    <view class="page_bd">
+        <button class="firstBton" bindtap="firstBton">吴彦祖</button>
+        <button class="secondBton" bindtap="secondBton">金城武</button>
+        <button class="thirdBton" bindtap="thirdBton">张震</button>
+        <button class="fourthBton" bindtap="fourthBton">彭于晏</button>
+    </view>
+    <view class="page_ft">
+            <button class="next" bindtap="nextBton" class-hover="button-hover">
+                下一题
+            </button>
+            <!-- <toast hidden="{{status}}" duration="3000" bindchange="toastHidden">
+                设置成功!
+            </toast> -->
+    </view>
+    </view>

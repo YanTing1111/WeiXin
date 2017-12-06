@@ -1,14 +1,14 @@
 <view class="page">
     <view class="page_hd">
-        <span class="question">我喜欢什么样的男生？</span>
-        <span class="number">1/10</span>
+        <span class="question">挑选你最喜欢的一部电影？</span>
+        <span class="number">2/10</span>
         <span class="topic">题目</span>
     </view>
     <view class="page_bd">
-        <button class="firstBton" bindtap="firstBton">傻白甜</button>
-        <button class="secondBton" bindtap="secondBton">鬼灵精怪</button>
-        <button class="thirdBton" bindtap="thirdBton">阳光开朗</button>
-        <button class="fourthBton" bindtap="fourthBton">运动范儿</button>
+        <button class="firstBton" bindtap="firstBton">你的名字</button>
+        <button class="secondBton" bindtap="secondBton">金刚狼3</button>
+        <button class="thirdBton" bindtap="thirdBton">海上钢琴师</button>
+        <button class="fourthBton" bindtap="fourthBton">釜山行</button>
     </view>
     <view class="page_ft">
             <button class="next" bindtap="nextBton" class-hover="button-hover">

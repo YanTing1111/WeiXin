@@ -18,16 +18,17 @@
 }
 .topic{
     font-size: 27rpx;
-    float: left;
+    float: right;
     margin-top: 40rpx;
-    margin-left: 150rpx;
+    /* margin-left: 150rpx; */
     color:#838383;
 }
 .number{
     font-size: 31rpx; 
     float: right;
     margin-top: 35rpx;
-    margin-right: 30rpx;
+    /* margin-right: 15rpx; */
+    color:#131313;
 }
 .page_bd{
     width: 100%;

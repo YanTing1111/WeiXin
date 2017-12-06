@@ -1,1 +1,2 @@
 /* pages/MyMovie/MyMovie.wxss */
+@import"../check/check.wxss"

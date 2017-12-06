@@ -10,6 +10,12 @@
     "pages/MyFere/MyFere",
     "pages/MyBoyFriend/MyBoyFriend",
     "pages/check/oneQuestion",
+    "pages/check/twoQuestion",
+    "pages/MyLove/MyLoveOne",
+    "pages/MyMovie/MyMovieOne",
+    "pages/MyFood/MyFoodOne",
+    "pages/MyFere/MyFereOne",
+    "pages/MyBoyFriend/MyBoyFriendOne",
     "pages/logs/logs"
   ],
   "window":{

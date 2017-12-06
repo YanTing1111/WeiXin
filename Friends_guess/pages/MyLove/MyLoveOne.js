@@ -1,4 +1,4 @@
-// pages/MyFood/MyFood.js
+// pages/MyLove/MyLoveOne.js
 Page({
 
   /**
@@ -6,11 +6,6 @@ Page({
    */
   data: {
   
-  },
-  nextBton:function(){
-    wx.navigateTo({
-      url:'../MyFood/MyFoodOne'
-    })
   },
 
   /**

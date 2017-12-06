@@ -1,1 +1,2 @@
 /* pages/MyFood/MyFood.wxss */
+@import"../check/check.wxss"

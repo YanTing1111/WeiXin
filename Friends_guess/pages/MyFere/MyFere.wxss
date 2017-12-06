@@ -1,1 +1,2 @@
 /* pages/MyFere/MyFere.wxss */
+@import"../check/check.wxss"

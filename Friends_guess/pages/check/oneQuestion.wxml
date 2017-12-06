@@ -1,8 +1,8 @@
 <view class="page">
         <view class="page_hd">
             <span class="question">我一般几点睡觉？</span>
+            <span class="number">2/10</span>
             <span class="topic">题目</span>
-            <span class="number">1/10</span>
         </view>
         <view class="page_bd">
             <button class="firstBton" bindtap="firstBton">20点-22点</button>
