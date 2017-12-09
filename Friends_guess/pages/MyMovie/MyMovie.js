@@ -5,7 +5,11 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    // movies:[]
+    ava:''
+  },
+  getmovie:function(){
+    
   },
   nextBton:function(){
     wx.navigateTo({
@@ -22,7 +26,17 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    var that = this ;
+    wx.request({
+      url:'https://www.easy-mock.com/mock/5a2bee65e14b1971b65c7cb1/MoviesInfo/getMoviesInfo',
+      method:'GET',
+      success:function(res){
+        console.log(res.data.data.movies);
+        that.setData({
+          ava:res.data.data.movies.avatar
+        })
+      }
+    })
   },
 
   /**

@@ -5,10 +5,15 @@
         <span class="topic">题目</span>
     </view>
     <view class="page_bd">
-        <button class="firstBton" bindtap="firstBton">名侦探柯南</button>
-        <button class="secondBton" bindtap="secondBton">疯狂动物城</button>
-        <button class="thirdBton" bindtap="thirdBton">触不可及</button>
-        <button class="fourthBton" bindtap="fourthBton">少年派的奇幻漂流</button>
+        <button class="firstBton" bindtap="firstBton">
+                    <image src="{{ava}}" id="avatar"/>
+                    <span id="moviename">{{movies.moviename}}</span>
+                    <span id="message">{{movies.message}}</span>
+                    <span id="score">{{movies.score}}</span>
+        </button>
+        <button class="secondBton" bindtap="secondBton"></button>
+        <button class="thirdBton" bindtap="thirdBton"></button>
+        <button class="fourthBton" bindtap="fourthBton"></button>
     </view>
     <view class="page_ft">
             <button class="next" bindtap="nextBton" class-hover="button-hover">
