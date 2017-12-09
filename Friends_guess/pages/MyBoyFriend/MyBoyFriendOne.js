@@ -11,6 +11,14 @@ Page({
       /**
        * 生命周期函数--监听页面加载
        */
+      nextBton:function(event){
+        wx.showToast({
+          title:'设置成功！',
+          icon:'success',
+          duration:200
+        })
+      },
+
       onLoad: function (options) {
       
       },

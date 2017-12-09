@@ -11,6 +11,11 @@ Page({
     wx.navigateTo({
       url:'../MyFood/MyFoodOne'
     })
+    wx.showToast({
+      title:'设置成功！',
+      icon:'success',
+      duration:200
+    })
   },
 
   /**

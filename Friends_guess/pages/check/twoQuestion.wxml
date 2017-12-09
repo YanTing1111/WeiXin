@@ -9,9 +9,11 @@
     <button class="secondBton" bindtap="secondBton">很准时</button>
 </view>
 <view class="page_ft">
+    <navigator url="/pages/index/index" open-type="switchTab" hover-class="other-navigator-hover">
         <button class="next" bindtap="nextBton" class-hover="button-hover">
-            下一题
+            返回主界面
         </button>
+    </navigator>
         <!-- <toast hidden="{{status}}" duration="3000" bindchange="toastHidden">
             设置成功!
         </toast> -->

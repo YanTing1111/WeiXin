@@ -5,24 +5,30 @@ Page({
    * 页面的初始数据
    */
   data: {
-    status:status
+    status:false,
+    toastText:''
   },
   nextBton:function(event){
     wx.navigateTo({
       url: '../check/oneQuestion'
     })
-    status = false
-    this.setData({status:status})
+    wx.showToast({
+      title:'设置成功！',
+      icon:'success',
+      duration:200
+    })
   },
   toastHidden:function(event){
-    status = true
-    this.setData({status:status})
+    this.setData({status:!this.data.status})
   },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    this.setData({
+      status:true,
+      toastText:'设置成功!'
+    })
   },
 
   /**

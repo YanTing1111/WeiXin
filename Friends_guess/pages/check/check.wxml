@@ -14,8 +14,8 @@
         <button class="next" bindtap="nextBton" class-hover="button-hover">
             下一题
         </button>
-        <!-- <toast hidden="{{status}}" duration="3000" bindchange="toastHidden">
-            设置成功!
-        </toast> -->
+        <toast hidden="{{status}}" duration="3000" bindchange="toastHidden">
+            {{toastText}}
+        </toast>
 </view>
 </view>

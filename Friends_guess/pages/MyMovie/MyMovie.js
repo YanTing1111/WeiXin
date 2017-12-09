@@ -11,6 +11,11 @@ Page({
     wx.navigateTo({
       url:'../MyMovie/MyMovieOne'
     })
+    wx.showToast({
+      title:'设置成功！',
+      icon:'success',
+      duration:200
+    })
   },
 
   /**
