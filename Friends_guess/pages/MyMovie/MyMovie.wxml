@@ -6,14 +6,29 @@
     </view>
     <view class="page_bd">
         <button class="firstBton" bindtap="firstBton">
-                    <image src="{{ava}}" id="avatar"/>
-                    <span id="moviename">{{movies.moviename}}</span>
-                    <span id="message">{{movies.message}}</span>
-                    <span id="score">{{movies.score}}</span>
+                   <image src="../../image/01.png" id="avatar" class="MovieImg"/>
+                    <span id="moviename" class="Name">{{movie[0].moviename}}</span>
+                    <span id="message" class="Info">{{movie[0].message}}</span>
+                    <span id="score" class="Sco">{{movie[0].score}}</span>
         </button>
-        <button class="secondBton" bindtap="secondBton"></button>
-        <button class="thirdBton" bindtap="thirdBton"></button>
-        <button class="fourthBton" bindtap="fourthBton"></button>
+        <button class="secondBton" bindtap="secondBton">
+                <image src="{{movie[1].avatar}}" id="avatar" class="MovieImg"/>
+                <span id="moviename" class="Name">{{movie[1].moviename}}</span>
+                <span id="message" class="Info">{{movie[1].message}}</span>
+                <span id="score" class="Sco">{{movie[1].score}}</span>
+        </button>
+        <button class="thirdBton" bindtap="thirdBton">
+                <image src="{{movie[2].avatar}}" id="avatar" class="MovieImg"/>
+                <span id="moviename" class="Name">{{movie[2].moviename}}</span>
+                <span id="message" class="Info">{{movie[2].message}}</span>
+                <span id="score" class="Sco">{{movie[2].score}}</span>
+        </button>
+        <button class="fourthBton" bindtap="fourthBton">
+                <image src="{{movie[3].avatar}}" id="avatar" class="MovieImg"/>
+                <span id="moviename" class="Name">{{movie[3].moviename}}</span>
+                <span id="message" class="Info">{{movie[3].message}}</span>
+                <span id="score" class="Sco">{{movie[3].score}}</span>
+        </button>
     </view>
     <view class="page_ft">
             <button class="next" bindtap="nextBton" class-hover="button-hover">

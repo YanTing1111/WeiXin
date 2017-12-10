@@ -5,10 +5,30 @@
         <span class="topic">题目</span>
     </view>
     <view class="page_bd">
-        <button class="firstBton" bindtap="firstBton">你的名字</button>
-        <button class="secondBton" bindtap="secondBton">金刚狼3</button>
-        <button class="thirdBton" bindtap="thirdBton">海上钢琴师</button>
-        <button class="fourthBton" bindtap="fourthBton">釜山行</button>
+        <button class="firstBton" bindtap="firstBton">
+                <image src="{{movie[4].avatar}}" id="avatar" class="MovieImg"/>
+                <span id="moviename" class="Name">{{movie[4].moviename}}</span>
+                <span id="message" class="Info">{{movie[4].message}}</span>
+                <span id="score" class="Sco">{{movie[4].score}}</span>
+        </button>
+        <button class="secondBton" bindtap="secondBton">
+                <image src="{{movie[5].avatar}}" id="avatar" class="MovieImg"/>
+                <span id="moviename" class="Name">{{movie[5].moviename}}</span>
+                <span id="message" class="Info">{{movie[5].message}}</span>
+                <span id="score" class="Sco">{{movie[5].score}}</span>
+        </button>
+        <button class="thirdBton" bindtap="thirdBton">
+                <image src="{{movie[6].avatar}}" id="avatar" class="MovieImg"/>
+                <span id="moviename" class="Name">{{movie[6].moviename}}</span>
+                <span id="message" class="Info">{{movie[6].message}}</span>
+                <span id="score" class="Sco">{{movie[6].score}}</span>
+        </button>
+        <button class="fourthBton" bindtap="fourthBton">
+                <image src="{{movie[7].avatar}}" id="avatar" class="MovieImg"/>
+                <span id="moviename" class="Name">{{movie[7].moviename}}</span>
+                <span id="message" class="Info">{{movie[7].message}}</span>
+                <span id="score" class="Sco">{{movie[7].score}}</span>
+        </button>
     </view>
     <view class="page_ft">
             <navigator url="/pages/index/index" open-type="switchTab" hover-class="other-navigator-hover">
